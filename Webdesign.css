@@ -5,6 +5,16 @@
 
 }
 
+
+@font-face {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 12px;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
 body {
     display: flex;
     flex-direction: column;
@@ -13,7 +23,7 @@ body {
 
 .hero-image {
     display: flex;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)) url("img11.jpg");
+    background-image: url("img11.jpg");
     height: 50%;
     background-position: center;
     background-repeat: no-repeat;
@@ -27,11 +37,7 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color:#0e90a4;
+    color:#ffffff;
     padding: 10%;
 }
 
-
-.h1 {
-    background-color: red;
-}
