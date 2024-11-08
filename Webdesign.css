@@ -7,7 +7,9 @@
 
 
 @font-face {
-  font-family: ;
+  font-family: Open;
+  src: url("Open_Sans.zip");
+  font-weight: bold;
 }
 
 body {
