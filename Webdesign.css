@@ -18,6 +18,14 @@ body {
     justify-content: space-around;
 }
 
+.links {
+    display: flex;
+    background-color:hwb(226 18% 73%);
+}
+.homepage {
+    border-color: white;
+}
+
 .hero-image {
     display: flex;
     background-image: url("img11.jpg");
@@ -38,3 +46,10 @@ body {
     padding: 10%;
 }
 
+.headline-trio {
+    display: flex;
+    background-position: center;
+    padding: 1%;
+    position: relative;
+    left: 25%;
+}
