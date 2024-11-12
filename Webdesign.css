@@ -136,6 +136,88 @@ body {
 }
 .column15 {
     align-self: flex-start;
-    background-color: #cecece;
+    background-color: #801212;
+    padding: 5%;
+}
+
+.the-big-column {
+    display: flex;
+    width: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    padding: 20%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    background: url("img10.jpg");
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+
+
+.contact {
+    display: flex;
+    background-image: url("img14.jpg");
+    height: 40%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    padding: 10%;
+}
+.contact p {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color:#000000;
+    padding: 4.1%;
+    background: rgba(230, 230, 230, 0.5);
+}
+.contact h3 {
+    text-align: bottom;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color:#ffffff;
+    padding: 10%;
+}
+
+.words2 {
+    text-align: bottom;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color:#ffffff;
+    padding: 10%;
+}
+.words3 {
+    text-align: left;
+    position: relative;
+
+    padding: 5%;
+}
+.words4 {
+    text-align: left;
+    position: relative;
+    left: -93%;
+    bottom: -130%;
+    padding: 5%;
+    
+}
+.words5 {
+    text-align: right;
+    position: relative;
+    left: 1000%;
+    bottom: -130%;
     padding: 5%;
 }
