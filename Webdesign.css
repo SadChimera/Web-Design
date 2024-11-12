@@ -26,7 +26,7 @@ body {
     border-color: white;
 }
 
-.hero-image {
+.the-first-hero {
     display: flex;
     background-image: url("img11.jpg");
     height: 50%;
@@ -34,7 +34,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    padding: 30%;
+    padding: 20%;
 }
 .hero-text {
     text-align: center;
@@ -49,7 +49,93 @@ body {
 .headline-trio {
     display: flex;
     background-position: center;
+    float: center;
+    flex-direction: row;
     padding: 1%;
+}
+.headline-trio p {
+    display: flex;
+    float: left;
+    padding: 1%;
+    float: left;
+}
+.headline1 {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    float: left;
+    background-color: #cecece;
+    padding: 14%;
+}
+.headline2 {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    float: center;
+    background-color: #cecece;
+    padding: 14%;
+}
+.headline3 {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    float: right;
+    background-color: #cecece;
+    padding: 14%;
+}
+
+.twin-columns {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.twin1 {
+    align-self: flex-start;
+    background-color: #cecece;
+    padding: 5%;
+}
+.twin2 {
+    align-self: flex-start;
+    background-color: #cecece;
+    padding: 5%;
+}
+
+
+.the-second-hero {
+    display: flex;
+    background-image: url("img13.jpg");
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     position: relative;
-    left: 25%;
+    padding: 20%;
+}
+
+.the-columns {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.column12 {
+    align-self: flex-start;
+    background-color: #cecece;
+    padding: 5%;
+}
+.column13 {
+    align-self: flex-start;
+    background-color: #cecece;
+    padding: 5%;
+}
+.column14 {
+    align-self: flex-start;
+    background-color: #cecece;
+    padding: 5%;
+}
+.column15 {
+    align-self: flex-start;
+    background-color: #cecece;
+    padding: 5%;
 }
