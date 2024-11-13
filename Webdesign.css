@@ -142,24 +142,24 @@ body {
 
 .the-big-column {
     display: flex;
-    width: 50%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    padding: 20%;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, 0%);
-    background: url("img10.jpg");
-    height: 50%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
+    align-items: center;
+    align-self: flex-start;
+    background-color: #cecece;
+    float: center;
+    padding: 5%;
 }
-
-
+.the-big-column {
+    
+}
+.the-big-column img {
+    align-self: center;
+    float: center;
+    width: 56%;
+    height: 80%;
+    position: relative;
+    left: 25%;
+    
+}
 
 .contact {
     display: flex;
