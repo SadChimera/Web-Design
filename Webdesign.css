@@ -19,17 +19,29 @@ body {
 }
 
 .links {
-    display: flex;
     background-color:hwb(226 18% 73%);
+    text-align: center;
 }
 .homepage {
     border-color: white;
+}
+.ul1 {
+    display: inline-block;
+    text-align: left;
+    list-style-type:none;
+    color:white;
+    padding: 1%;
+    margin: 2%;
+}
+li {
+    display: inline;
+    margin-right: 10px;
 }
 
 .the-first-hero {
     display: flex;
     background-image: url("img11.jpg");
-    height: 50%;
+    height: 40%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -47,17 +59,14 @@ body {
 }
 
 .headline-trio {
-    display: flex;
-    background-position: center;
-    float: center;
-    flex-direction: row;
+    display: inline-block;
+    text-align: left;
     padding: 1%;
+    margin: 2%;
 }
 .headline-trio p {
-    display: flex;
-    float: left;
-    padding: 1%;
-    float: left;
+    display: inline;
+    margin-right: 10px;
 }
 .headline1 {
     display: flex;
@@ -84,21 +93,28 @@ body {
     padding: 14%;
 }
 
+.twin-columns h2 {
+    display: inline-block;
+    text-align: center;
+}
 .twin-columns {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
+    display: inline-block;
+    text-align: left;
+    padding: 8%;
+    margin: 15px;
 }
 .twin1 {
-    align-self: flex-start;
+    display: inline;
+    float: left;
+    margin: 10px;
     background-color: #cecece;
-    padding: 5%;
+    background-size: 20px 50px;
 }
 .twin2 {
-    align-self: flex-start;
+    display: inline;
+    float: right;
+    margin: 10px;
     background-color: #cecece;
-    padding: 5%;
 }
 
 
