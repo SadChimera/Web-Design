@@ -157,25 +157,20 @@ li {
 }
 
 .the-big-column {
-    display: flex;
-    align-items: center;
-    align-self: flex-start;
-    background-color: #cecece;
-    float: center;
-    padding: 5%;
-}
-.the-big-column {
-    
-}
-.the-big-column img {
-    align-self: center;
-    float: center;
-    width: 56%;
-    height: 80%;
+    padding: 15%;
+    background-image: url("img10.jpg");
+    background-repeat: no-repeat;
+    background-position: center top;
     position: relative;
-    left: 25%;
-    
+    background-color: #cecece;
 }
+.the-big-column h2 {
+    position: absolute;
+    right: 69.8%;
+    bottom: 30%;
+}
+
+
 
 .contact {
     display: flex;
