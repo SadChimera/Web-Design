@@ -59,14 +59,14 @@ li {
 }
 
 .headline-trio {
-    display: inline-block;
-    text-align: left;
-    padding: 1%;
-    margin: 2%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px;
 }
-.headline-trio p {
-    display: inline;
-    margin-right: 10px;
+.headline.1 {
+    align-self: center;
 }
 
 
